@@ -1,8 +1,11 @@
 <template>
     <div class="sidebar">
-        <div class="home">
-            <img src="../../assets/home.svg" alt="">
-        </div>
+        <router-link to="/">
+            <div class="home">
+                <img src="../../assets/home.svg" alt="">
+            </div>
+        </router-link>
+       
         <div class="back">
             <img src="../../assets/back-arrow.png" alt="">
         </div>

@@ -66,11 +66,24 @@
         </thead>
         <tbody>
           <tr class="bodyrow" v-for="account in accounts" :key="account.id">
-            <td class="td1">{{ account.id }}</td>
-            <td class="td2">{{ account.description }}</td>
+            <td class="td1">
+              <router-link to="/details">
+                {{ account.id }}
+              </router-link>
+              </td>
+            <td class="td2">
+              <router-link to="/details">
+              {{ account.description }}
+              </router-link>
+              </td>
             <td class="td3">{{ account.debcre }}</td>
             <td class="td4">{{ account.availbal }}</td>
-            <td class="td5">{{ account.status }}</td>
+            <td class="td5 float-right">
+              <div class="mt-4 h-7 w-20 text-center border border-green-200 text-green-500">
+                    {{ account.status }}
+              </div>
+              
+              </td>
             <td class="td6">{{ account.date }}</td>
           </tr>
         </tbody>
