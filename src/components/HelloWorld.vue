@@ -162,7 +162,7 @@ a {
 #arrow {
   width: 24px;
   height: 24px;
-  margin-left: 30px;
+  margin-left: 220px;
   margin-top: 28px
 }
 .curavail {
@@ -219,7 +219,7 @@ a {
 }
 .filter {
   width: 128px;
-  height: 32px;
+  height: 30px;
   border-radius: 2px;
   border: solid 1px #c6cbd4;
   float: left;

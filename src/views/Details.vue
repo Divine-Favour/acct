@@ -4,7 +4,7 @@
     <!-- <h1>This is a page for the bank details of the sender</h1> -->
     <div class="container">
       <div class="top flex justify-start">
-        <p class="font-bold my-auto">Account &#62; 
+        <p class="font-bold my-auto"><router-link to="/"> Account </router-link> &#62; 
         <span class="text-gray-400"> Transactions</span> </p> 
       </div>
       <div class="trans">
@@ -136,9 +136,6 @@ export default {
 </script>
 
 <style scoped>
-  .details {
-    margin-top: -30px;
-  }
   .container {
     width: 1182px;
     height: 593px;

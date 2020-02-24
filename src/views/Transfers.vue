@@ -134,7 +134,7 @@ export default {
   #arrow {
     width: 24px;
     height: 24px;
-    margin-left: 30px;
+    margin-left: 220px;
     margin-top: 28px
   }
   .formdiv {

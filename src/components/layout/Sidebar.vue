@@ -1,13 +1,13 @@
 <template>
     <div class="sidebar">
         <router-link to="/">
-            <div class="home">
-                <img src="../../assets/home.svg" alt="">
+            <div class="home flex">
+                <img src="../../assets/home.png" alt="">
             </div>
         </router-link>
         <router-link to="/transfers">
-            <div class="back">
-                <img src="../../assets/back-arrow.png" alt="">
+            <div class="back flex">
+                <img src="../../assets/transaction.svg" alt="">
             </div>
         </router-link>
     </div>
@@ -36,6 +36,8 @@ export default {
     .home {
         width: 72px;
         height: 48px;
+    }
+    .home:hover {
         background-color: #ececec;
         border-right: 3px #6964d9 solid;
     }
@@ -43,5 +45,9 @@ export default {
         width: 72px;
         height: 48px;
         background-color: #ffffff;
+    }
+    .back:hover {
+        background-color: #ececec;
+        border-right: 3px #6964d9 solid;
     }
 </style>
